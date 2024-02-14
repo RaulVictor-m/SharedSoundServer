@@ -3,10 +3,10 @@ LIBS := -lpulse -lpulse-simple
 FILES := server.c audio_interface.c socket_interface.c log.c
 
 clean:
-	rm -rf server
+	rm ./server
 
 build:
-	clang $(CFLAGS) $(FILES) -o server $(LIBS)
+	gcc $(CFLAGS) $(FILES) -o server $(LIBS)
 
 test:
 	./server
