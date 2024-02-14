@@ -1,6 +1,6 @@
 # SharedSoundServer
 
-This project is meant to be an Open Source [SoundWire]() alternative.
+This project is meant to be an Open Source [SoundWire](https://play.google.com/store/apps/details?id=com.georgie.SoundWireFree) alternative.
 
 The server is already working, though there is still no client to use yet, and there is no security builting to it, which is fine if you want to use it only in your local network.
 
